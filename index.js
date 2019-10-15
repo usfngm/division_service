@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     res.status(500).send()
   }
   var result = {
-    'results': num1 / num2
+    'result': num1 / num2
   };
   res.status(200).send(result);
 });
