@@ -45,4 +45,3 @@ Now that we have created our docker image, we can start a new container from tha
     This lists all the running containers along with some of their information like port mappings
 
 3. You can access your application through localhost and concatenating the port number you got from the previous step. *(Example: http://localhost:32771/)*
- 
