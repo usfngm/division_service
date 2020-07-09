@@ -41,10 +41,10 @@ app.use(function fiveHundredHandler(err, req, res, next) {
 
 
 // Start server
-app.listen(8000, function (err) {
+app.listen(8080, function (err) {
   if (err) {
     return console.error(err)
   }
 
-  console.log('Started at http://localhost:8000')
+  console.log('Started at http://localhost:8080')
 })
